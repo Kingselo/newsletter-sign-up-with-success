@@ -176,19 +176,25 @@ body {
 /* Start Of Success Message Styling */
 
 .success-message {
-    width: 350px;
+    width: 300px;
     height: auto;
     background-color: white;
     border-radius: 20px;
     display: flex;
-    padding: 35px;
+    padding: 30px;
     gap: 3rem;
     display: none;
     flex-direction: column;
 }
 
+.success-message div {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
 .success-message h1 {
-    font-size: 4rem;
+    font-size: 3.5rem;
     font-weight: 700;
     line-height: 3.9rem;
 }
